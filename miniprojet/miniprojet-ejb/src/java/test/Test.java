@@ -8,6 +8,7 @@ package test;
  *
  * @author Phantom
  */
-public class Test {
+public class Test {//coucou
+    
     
 }
