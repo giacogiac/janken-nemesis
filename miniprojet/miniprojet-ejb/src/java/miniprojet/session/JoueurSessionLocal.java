@@ -2,13 +2,17 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package test;
+package miniprojet.session;
+
+import javax.ejb.Local;
 
 /**
  *
  * @author Phantom
  */
-public class Test {//coucou
-    
+@Local
+public interface JoueurSessionLocal {
+
+    public String hello();
     
 }
