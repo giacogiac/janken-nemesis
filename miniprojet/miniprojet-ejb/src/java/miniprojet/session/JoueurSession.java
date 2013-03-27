@@ -17,7 +17,7 @@ public class JoueurSession implements JoueurSessionLocal {
     // Add business logic below. (Right-click in editor and choose
     // "Insert Code > Add Business Method")
     
-    @javax.persistence.PersistenceContext(unitName="miniprojet_persitence")
+    @javax.persistence.PersistenceContext(unitName="miniprojet_persistence")
     private EntityManager em ;
 
     public JoueurSession() {
